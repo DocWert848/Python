@@ -9,3 +9,7 @@ abc = ["A" , "B" , "C" , "D" , "E" , "F" , "G"]
 del abc[1:5]
 print (abc)
 #ЗАДАНИЕ 3
+numbers = [1, 4]
+numbers.insert(1, 2)
+numbers.insert(2,3)
+print (numbers)
