@@ -4,3 +4,8 @@ m.remove(0.25)
 m.remove(15)
 m.remove('10')
 print (m)
+#ЗАДАНИЕ 2
+abc = ["A" , "B" , "C" , "D" , "E" , "F" , "G"]
+del abc[1:5]
+print (abc)
+#ЗАДАНИЕ 3
