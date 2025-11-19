@@ -13,3 +13,12 @@ numbers = [1, 4]
 numbers.insert(1, 2)
 numbers.insert(2,3)
 print (numbers)
+#ЗАДАНИЕ 5
+mass = [14, -6, 3, 11, 6, 8.5, 99, -20, -6, 10, 40, 0.25, -4, 5]
+mass.sort()
+print (mass)
+del mass[0:4]
+print (mass)
+mass.sort(reverse=True)
+print (mass)
+#ЗАДАНИЕ 6
