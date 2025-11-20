@@ -22,3 +22,23 @@ for lol in range(len(matrix_1)):
 print (answer_matrix)
 for lol2 in answer_matrix:
     print(f'сумма чисел в списке: {sum(lol2)}')
+# задание 3
+fruits = [['Banana', 'apple'], ['apricot', 'Avocado'],
+['lime', 'lemon'], ['Mango', 'grapes']]
+fruits_big = []
+for lol in fruits:
+    for el in lol:
+        if el[0].isupper():
+            fruits_big.append(el):
+print(fruits_big)
+# задание 4
+random_elements = [['toy', 'bee', 'cheese', 'ear'],
+ [False, 'word', '0110110', 10],
+ ['happiness', '(」°ロ°)」', 'luck', None],
+ ['car', '<- code ->', 4.7, True]]
+for spusok_element in random_elements:
+    for element in spusok_element:
+        for index, element in enumerate(spusok_element):
+            if index == 2:
+                print(f"индекс: {index}, элемент: {element}")
+        break 
