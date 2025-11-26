@@ -42,4 +42,22 @@ for spusok_element in random_elements:
             if index == 2:
                 print(f"индекс: {index}, элемент: {element}")
         break 
-
+# задание 5
+matrix = []
+list_xy = []     
+kol_vo_spuska_x = int(input("Введите количество элементов для x: "))
+kol_vo_spuska_y = int(input("Введите количество элементов для y: "))
+x = -1
+y = 0
+while True:
+    x += 1
+    element=int(input(f'введите элемент {y} {x} : '))
+    list_xy.append(element)
+    if x == kol_vo_spuska_x:
+        matrix.append(list_xy)
+        list_xy = []
+        x = -1
+        y += 1
+    if y > kol_vo_spuska_y:
+        print (matrix)
+        break
