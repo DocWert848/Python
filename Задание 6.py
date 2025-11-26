@@ -61,3 +61,15 @@ while True:
     if y > kol_vo_spuska_y:
         print (matrix)
         break
+# задание 5     
+kol_vo_spuska_x = int(input("Введите количество элементов для x: "))
+kol_vo_spuska_y = int(input("Введите количество элементов для y: "))
+matrix = []
+for x in range(kol_vo_spuska_x):
+    list_xy = []
+    for y in range(kol_vo_spuska_y):
+        element=int(input(f'введите элемент {y} {x} : '))
+        list_xy.append(element)
+    matrix.append(list_xy)
+for list_xy in matrix:
+    print(list_xy)
